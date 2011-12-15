@@ -4,13 +4,7 @@ Given /^I am editing content$/ do
 end
 
 Given /^place a "([^"]*)" component in a slot$/ do |component_name|
-  slot_name = case component_name
-  # Fill in your component and component slot name
-  # when '<component>'
-  #   '<component> Slot'
-  else
-    'Large Slot'
-  end
+  slot_name = 'Large Slot'
   within('ol#slot-list') do
     click_link slot_name
   end
