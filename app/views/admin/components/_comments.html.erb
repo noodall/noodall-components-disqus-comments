@@ -1,0 +1,6 @@
+<%= fields_for :node do |n| %>
+  <%=   n.fields_for slot_name, component do |f| %>
+
+    <%= f.hidden_field :_type %>
+    <% end
+   end %>

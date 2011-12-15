@@ -1,3 +1,11 @@
 = Noodall Comments Component using Disqus
 
+You need to tell Disqus what your shortname is.
+
+Add to your config/initializers/noodall.rb
+
+  NoodallComponentsDisqusComments.shortname = "<shortname here>"
+
+See their docs (http://docs.disqus.com/developers/universal/) for more informations
+
 This project rocks and uses MIT-LICENSE.
