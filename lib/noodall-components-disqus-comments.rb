@@ -10,3 +10,6 @@ module NoodallComponentsDisqusComments
     attr_accessor :developer_mode
   end
 end
+
+# Developer mode default is "on"
+NoodallComponentsDisqusComments.developer_mode = 1
