@@ -6,6 +6,12 @@ Add to your config/initializers/noodall.rb
 
   NoodallComponentsDisqusComments.shortname = "<shortname here>"
 
+To override developer mode in the development environment:
+
+  if Rails.env.development?
+    NoodallComponentsDisqusComments.developer_mode = 0
+  end
+
 See their docs (http://docs.disqus.com/developers/universal/) for more informations
 
 This project rocks and uses MIT-LICENSE.
