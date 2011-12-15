@@ -7,5 +7,5 @@ Given /^save and publish the page$/ do
 end
 
 Then /^I should see the comments on the page$/ do
-  page.should have_css('div#disqus_thread')
+  assert page.has_css?('div#disqus_thread')
 end
