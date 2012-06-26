@@ -28,4 +28,5 @@ group :test do
   gem 'launchy'    # So you can do Then show me the page
   gem 'factory_girl_rails'
   gem 'fakerama'
+  gem 'rails', '~> 3.1.1'
 end
