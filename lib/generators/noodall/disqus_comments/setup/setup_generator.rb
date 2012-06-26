@@ -13,7 +13,7 @@ module Noodall
           <<-EOS.strip_heredoc
 
           # Set the Disqus Comments shortname
-          NoodallComponentsDisqusComments.shortname = '<short_name>'
+          Noodall::Components::DisqusComments.shortname = '<short_name>'
           EOS
         end
       end

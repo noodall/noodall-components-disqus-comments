@@ -1,12 +1,12 @@
 $:.push File.expand_path("../lib", __FILE__)
 
 # Maintain your gem's version:
-require "noodall-components-disqus-comments/version"
+require "noodall/components/disqus_comments/version"
 
 # Describe your gem and declare its dependencies:
 Gem::Specification.new do |s|
   s.name        = "noodall-components-disqus-comments"
-  s.version     = NoodallComponentsDisqusComments::VERSION
+  s.version     = Noodall::Components::DisqusComments::VERSION
   s.authors     = ["Jordan Elver", "Liam Richardson"]
   s.email       = ["jordan.elver@gmail.com"]
   s.homepage    = "https://github.com/noodall/noodall-components-disqus-comments"
