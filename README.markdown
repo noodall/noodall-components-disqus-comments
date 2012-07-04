@@ -1,5 +1,7 @@
 # Noodall Comments Component using Disqus
 
+Noodall Comments allows you to add Disqus comments to your Noodall Nodes.
+
 ## Install
 
 Add to your `Gemfile`
@@ -14,7 +16,7 @@ Run `bundle install`
 
 You need to tell Disqus what your shortname is.
 
-Add to your config/initializers/noodall.rb
+Add to your `config/initializers/noodall.rb`
 
     NoodallComponentsDisqusComments.shortname = "<shortname here>"
 
