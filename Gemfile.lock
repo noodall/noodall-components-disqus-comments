@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    noodall-components-disqus-comments (0.0.1)
+    noodall-components-disqus-comments (1.0.0)
 
 GEM
   remote: http://gems.github.com/
