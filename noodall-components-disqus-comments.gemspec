@@ -13,10 +13,8 @@ Gem::Specification.new do |s|
   s.summary     = "A comments component for Noodall using Disqus"
   s.description = "A comments component for Noodall using Disqus"
 
-  s.files = Dir["{app,config,db,lib}/**/*"] + ["MIT-LICENSE", "Rakefile", "README.rdoc"]
+  s.files = Dir["{app,config,db,lib}/**/*"] + ["MIT-LICENSE", "Rakefile", "README.markdown"]
   s.test_files = Dir["test/**/*"]
-
-  # s.add_dependency "jquery-rails"
 
   s.add_development_dependency "sqlite3"
 end
