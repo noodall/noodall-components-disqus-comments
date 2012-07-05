@@ -1,8 +1,7 @@
 PATH
   remote: .
   specs:
-    noodall-components-disqus-comments (0.0.1)
-      rails (~> 3.1.1)
+    noodall-components-disqus-comments (1.0.0)
 
 GEM
   remote: http://gems.github.com/
@@ -196,4 +195,5 @@ DEPENDENCIES
   mm-versionable (= 0.2.5)
   noodall-components-disqus-comments!
   noodall-ui
+  rails (~> 3.1.1)
   sqlite3

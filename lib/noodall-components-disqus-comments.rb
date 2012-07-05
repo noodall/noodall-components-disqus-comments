@@ -1,15 +1,19 @@
-require "noodall-components-disqus-comments/engine"
+require "noodall/components/disqus_comments/engine"
 
-module NoodallComponentsDisqusComments
-  class << self
+module Noodall
+  module Components
+    module DisqusComments
+      class << self
 
-    # Unique identifier for this website
-    attr_accessor :shortname
+        # Unique identifier for this website
+        attr_accessor :shortname
 
-    # Whether developer mode is on or off
-    attr_accessor :developer_mode
+        # Whether developer mode is on or off
+        attr_accessor :developer_mode
+      end
+    end
   end
 end
 
 # Developer mode default is "on"
-NoodallComponentsDisqusComments.developer_mode = 1
+Noodall::Components::DisqusComments.developer_mode = 1

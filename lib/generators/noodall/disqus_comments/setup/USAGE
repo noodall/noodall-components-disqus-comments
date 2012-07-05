@@ -1,0 +1,6 @@
+Description:
+  Automatically add Disqus configuration
+
+Example:
+  rails generate noodall:disqus_comments:setup
+
