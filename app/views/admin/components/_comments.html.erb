@@ -1,6 +1,7 @@
+<p><label>Disqus Comments</label></p>
+<%# It's important we have some text here - even if there are no form fields %>
 <%= fields_for :node do |n| %>
-  <%=   n.fields_for slot_name, component do |f| %>
-
+  <%= n.fields_for slot_name, component do |f| %>
     <%= f.hidden_field :_type %>
-    <% end
-   end %>
+  <% end %>
+<% end %>
